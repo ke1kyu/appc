@@ -1,0 +1,64 @@
+.center {
+    width: 420px;
+    text-align: center;
+    margin: auto;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(58, 58, 58);
+}
+
+.line {
+    width: 170px;
+    margin: auto;
+}
+
+.obj{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 0;
+}
+
+.input{
+    height: 27px;
+    width: 120px;
+    margin: auto 0;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+
+.input:focus{
+    box-shadow: 0 0 5px 0 rgb(0, 174, 255);
+    outline: 0;
+}
+
+p{
+    margin:auto 0;
+}
+
+.result{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+}
+
+.copy_btn{
+    font-size: 18px;
+    font-weight: bold;
+    padding:8px 15px;
+    color: white;
+    background: rgb(42, 134, 255);
+    border:none;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.copy_btn:hover{
+    background: rgb(31, 100, 190);
+    box-shadow: 0 0 15px 0 rgb(0, 174, 255);
+}

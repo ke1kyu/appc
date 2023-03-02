@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/index.js"></script>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <title>AviUtl再生位置計算機</title>
+</head>
+
+<body>
+  <div class="center">
+    <p class="title">AviUtl再生位置計算機</p>
+    <div class="line">
+      <div class="obj">
+        <p>分 : </p>
+        <input type="text" id="min" size="10" onkeyup="inputCheck()" class="input">
+      </div>
+    </div>
+    <div class="line">
+      <div class="obj">
+        <p>秒 : </p>
+        <input type="text" id="sec" size="10" onkeyup="inputCheck()" class="input">
+      </div>
+    </div>
+    <div class="line">
+      <div class="obj">
+        <p>fps : </p>
+        <input type="text" id="fps" size="10" onkeyup="inputCheck()" class="input">
+      </div>
+    </div>
+    <br>
+    <label id="result" class="result">
+      計算結果 = 0
+    </label>
+    <br>
+    <br>
+    <button class="copy_btn" onclick="copy();">計算結果をコピー</button>
+  </div>
+</body>
+
+</html>
