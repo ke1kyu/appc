@@ -6,7 +6,7 @@ function inputCheck() {
     var inputSec = Number(document.getElementById("sec").value);
     var inputFps = Number(document.getElementById("fps").value);
 
-    sum = (inputMin * 60 + inputSec) * inputFps;
+    sum = (inputMin * 60 + inputSec) * inputFps + 1;
 
     document.getElementById("result").innerHTML = '計算結果 = ' + sum;
 }
